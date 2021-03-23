@@ -17,7 +17,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-wine_data = pd.read_csv("C:/Users/Adriano/Desktop/Untitled0/winequality-red.csv")
+wine_data = pd.read_csv("C:/Users/Theear02/Desktop/ICon-main/winequality-red.csv")
 group_names = ['BAD', 'GOOD']
 
 def plot_results(classifier,X_test,y_test, name):
@@ -48,8 +48,8 @@ def manipulate_data():
     return wine_data
 
 #import the dataset
-wine_data = pd.read_csv("C:/Users/Adriano/Desktop/Untitled0/winequality-red.csv")
-print(wine_data['quality'].value_counts())
+#wine_data = pd.read_csv("C:/Users/Adriano/Desktop/Untitled0/winequality-red.csv")
+#print(wine_data['quality'].value_counts())
 
 # %%% dataset visualitazion %%%% 
 print('Number of rows in the dataset: ', wine_data.shape[0])
